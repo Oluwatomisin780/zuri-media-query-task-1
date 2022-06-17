@@ -1,0 +1,53 @@
+body {
+  background-image: url('images/bg-intro-desktop.png');
+  background-color: hsl(0, 100%, 74%);
+  opacity: 0.9;
+  font-size: 16;
+}
+
+.container {
+  margin: 12rem;
+  display: flex;
+}
+.contianer-element {
+  margin-top: 200px;
+}
+
+.container-element h1 {
+  font-weight: 700;
+  word-spacing: 4px;
+}
+.container-element p {
+  font-weight: 200px;
+  word-spacing: 4px;
+}
+
+.container-element-form {
+  box-shadow: 0px 4px 8px 0px hsla(0, 11%, 38%, 0.363);
+  background-color: white;
+  border-radius: 10px 10px;
+  max-width: 400px;
+  height: 300px;
+  transition: 0.3s;
+}
+
+.container-element-input form input {
+  width: 80%;
+  padding: 4px;
+  margin: 10px;
+}
+
+.container-element-input a {
+  color: red;
+  text-decoration: none;
+}
+
+button {
+  background-color: #04aa6d;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
