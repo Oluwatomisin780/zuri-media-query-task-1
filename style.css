@@ -8,6 +8,8 @@ body {
 .container {
   margin: 12rem;
   display: flex;
+  justify-content: space-around;
+  text-align: center;
 }
 .contianer-element {
   margin-top: 200px;
@@ -19,7 +21,6 @@ body {
 }
 .container-element p {
   font-weight: 200px;
-  word-spacing: 4px;
 }
 
 .container-element-form {
@@ -29,6 +30,7 @@ body {
   max-width: 400px;
   height: 300px;
   transition: 0.3s;
+  margin-bottom: 400px;
 }
 
 .container-element-input form input {
